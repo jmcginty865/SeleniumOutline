@@ -14,7 +14,7 @@ public class MyFristTest {
     @Test
     public void startWebDriver(){
 
-        System.setProperties("webdriver.gecko.driver", "/User/jennifermcginty/Downloads/geckodriver.exe");
+        System.setProperty("webdriver.gecko.driver", "/User/jennifermcginty/Downloads/geckodriver.exe");
 
         WebDriver driver = new FirefoxDriver();
 
